@@ -50,6 +50,11 @@ namespace TriangleArea
             Task3 window = new Task3();
             window.Show();
         }
+        private void task4_button_Click(object sender, RoutedEventArgs e)
+        {
+            Task4 window = new Task4();
+            window.Show();
+        }
         private void exit_button_Click(object sender, RoutedEventArgs e)
         {
             Environment.Exit(0);

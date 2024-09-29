@@ -56,3 +56,5 @@ C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task2.g.cs
 C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task2.baml
 C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task3.baml
 C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task3.g.cs
+C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task4.g.cs
+C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task4.baml
