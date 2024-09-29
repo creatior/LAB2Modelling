@@ -9,9 +9,11 @@
         Title="MainWindow" Height="600" Width="800">
     <Grid Height="584" VerticalAlignment="Center">
         <Grid.RowDefinitions>
-            <RowDefinition Height="371*" />
-            <RowDefinition Height="79*" />
-            <RowDefinition Height="134*" />
+            <RowDefinition Height="322*" />
+            <RowDefinition Height="68*" />
+            <RowDefinition Height="65*" />
+            <RowDefinition Height="68*" />
+            <RowDefinition Height="61*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="223*" />
@@ -19,9 +21,11 @@
             <ColumnDefinition Width="363*" />
         </Grid.ColumnDefinitions>
         <oxy:PlotView x:Name="PlotView" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
-        <Button x:Name="calculate_button" Content="Посчитать площадь" HorizontalAlignment="Center" VerticalAlignment="Center" Height="122" Width="380" Grid.Row="2" Grid.ColumnSpan="2" FontSize="26" Click="calculate_button_Click" Margin="40,20,40,20"/>
-        <TextBlock x:Name="answer_textbox" Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" FontSize="20" TextAlignment="Center" Padding="50"></TextBlock>
-        <Label Content="Введите количество точек:" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="16" Margin="5,5,5,5"/>
-        <TextBox x:Name="N_textbox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="100" Margin="30,30,30,30"/>
+        <Button x:Name="calculate_button" Content="Посчитать площадь" HorizontalAlignment="Left" VerticalAlignment="Top" Height="122" Width="380" Grid.Row="2" Grid.ColumnSpan="2" FontSize="26" Click="calculate_button_Click" Margin="26,32,0,0" Grid.RowSpan="3"/>
+        <TextBlock x:Name="answer_textbox" Grid.Row="2" Grid.Column="2" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock x:Name="absolute_error_textbox" Grid.Row="3" Grid.Column="2" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock x:Name="relative_error_textbox" Grid.Row="4" Grid.Column="2" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <Label Content="Введите количество точек:" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="16" Height="32" Width="207"/>
+        <TextBox x:Name="N_textbox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="100" Height="20"/>
     </Grid>
 </Window>
