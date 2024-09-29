@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TriangleArea"
         xmlns:oxy="http://oxyplot.org/wpf"
         mc:Ignorable="d"
-        Title="Task1" Height="600" Width="800">
+        Title="Задание 1" Height="600" Width="800">
     <Grid Height="584" VerticalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="322*" />

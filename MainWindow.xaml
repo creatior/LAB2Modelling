@@ -17,9 +17,9 @@
             <RowDefinition Height="23*"/>
         </Grid.RowDefinitions>
         <Button x:Name="task1_button" Grid.Row="0" Content="Задание 1" FontSize="30" Click="task1_button_Click" Margin="200,10,200,10"/>
-        <Button x:Name="task2_button" Grid.Row="1" Content="Задание 2" FontSize="30" Margin="200,10,200,10"/>
-        <Button x:Name="task3_button" Grid.Row="2" Content="Задание 3" FontSize="30" Margin="200,10,200,10"/>
+        <Button x:Name="task2_button" Grid.Row="1" Content="Задание 2" FontSize="30" Margin="200,10,200,10" Click="task2_button_Click"/>
+        <Button x:Name="task3_button" Grid.Row="2" Content="Задание 3" FontSize="30" Margin="200,10,200,10" Click="task3_button_Click"/>
         <Button x:Name="task4_button" Grid.Row="3" Content="Задание 4" FontSize="30" Margin="200,10,200,10"/>
-        <Button x:Name="exit_button" Grid.Row="4" Content="Выйти" FontSize="30" Margin="200,24,200,5"/>
+        <Button x:Name="exit_button" Grid.Row="4" Content="Выйти" FontSize="30" Margin="200,24,200,5" Click="exit_button_Click"/>
     </Grid>
 </Window>

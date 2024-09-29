@@ -52,6 +52,8 @@ namespace TriangleArea
                 functionSeries.Points.Add(new DataPoint(x, y));
             }
             plotModel.Series.Add(functionSeries);
+            PlotView.Model = plotModel;
+            PlotView.InvalidatePlot();
         }
         private double f(double x)
         {

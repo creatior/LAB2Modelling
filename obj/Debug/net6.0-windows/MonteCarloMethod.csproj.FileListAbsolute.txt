@@ -52,3 +52,7 @@ C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\refint\Mont
 C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\MonteCarloMethod.pdb
 C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\MonteCarloMethod.genruntimeconfig.cache
 C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\ref\MonteCarloMethod.dll
+C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task2.g.cs
+C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task2.baml
+C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task3.baml
+C:\Users\varte\Desktop\c+++\c#\TriangleArea\obj\Debug\net6.0-windows\Task3.g.cs

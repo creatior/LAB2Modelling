@@ -18,7 +18,10 @@ using OxyPlot.Axes;
 using System.Numerics;
 using System.Security.Cryptography;
 using System.Windows.Media.Animation;
+using MonteCarloMethod;
+using static System.Net.Mime.MediaTypeNames;
 
+// TriangleArea
 namespace TriangleArea
 {
     /// <summary>
@@ -35,6 +38,21 @@ namespace TriangleArea
         {
             Task1 window = new Task1();
             window.Show();
+        }
+
+        private void task2_button_Click(object sender, RoutedEventArgs e)
+        {
+            Task2 window = new Task2();
+            window.Show();
+        }
+        private void task3_button_Click(object sender, RoutedEventArgs e)
+        {
+            Task3 window = new Task3();
+            window.Show();
+        }
+        private void exit_button_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

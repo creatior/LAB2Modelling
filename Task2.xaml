@@ -1,0 +1,31 @@
+﻿<Window x:Class="MonteCarloMethod.Task2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TriangleArea"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        mc:Ignorable="d"
+        Title="Задание 2" Height="600" Width="800">
+    <Grid Height="584" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="322*" />
+            <RowDefinition Height="68*" />
+            <RowDefinition Height="65*" />
+            <RowDefinition Height="68*" />
+            <RowDefinition Height="61*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="223*" />
+            <ColumnDefinition Width="214*" />
+            <ColumnDefinition Width="363*" />
+        </Grid.ColumnDefinitions>
+        <oxy:PlotView x:Name="PlotView" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
+        <Button x:Name="calculate_button" Content="Посчитать площадь" HorizontalAlignment="Left" VerticalAlignment="Top" Height="122" Width="380" Grid.Row="2" Grid.ColumnSpan="2" FontSize="26" Click="calculate_button_Click" Margin="26,32,0,0" Grid.RowSpan="3"/>
+        <TextBlock x:Name="answer_textbox" Grid.Row="2" Grid.Column="2" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock x:Name="absolute_error_textbox" Grid.Row="3" Grid.Column="2" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <TextBlock x:Name="relative_error_textbox" Grid.Row="4" Grid.Column="2" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <Label Content="Введите количество точек:" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="16" Height="32" Width="207"/>
+        <TextBox x:Name="N_textbox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="100" Height="20"/>
+    </Grid>
+</Window>
